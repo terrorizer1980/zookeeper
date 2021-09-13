@@ -24,7 +24,7 @@
     <groupId>org.apache</groupId>
     <artifactId>apache</artifactId>
     <version>23</version>
-    <relativePath />
+    <relativePath/>
     <!-- no parent resolution -->
   </parent>
   <groupId>org.apache.zookeeper</groupId>
@@ -373,7 +373,7 @@
                         </goals>
                       </pluginExecutionFilter>
                       <action>
-                        <ignore />
+                        <ignore/>
                       </action>
                     </pluginExecution>
                     <pluginExecution>
@@ -386,7 +386,7 @@
                         </goals>
                       </pluginExecutionFilter>
                       <action>
-                        <ignore />
+                        <ignore/>
                       </action>
                     </pluginExecution>
                     <pluginExecution>
@@ -399,7 +399,7 @@
                         </goals>
                       </pluginExecutionFilter>
                       <action>
-                        <ignore />
+                        <ignore/>
                       </action>
                     </pluginExecution>
                     <pluginExecution>
@@ -412,7 +412,7 @@
                         </goals>
                       </pluginExecutionFilter>
                       <action>
-                        <ignore />
+                        <ignore/>
                       </action>
                     </pluginExecution>
                     <pluginExecution>
@@ -425,7 +425,7 @@
                         </goals>
                       </pluginExecutionFilter>
                       <action>
-                        <ignore />
+                        <ignore/>
                       </action>
                     </pluginExecution>
                   </pluginExecutions>
@@ -461,7 +461,7 @@
     <slf4j.version>1.7.30</slf4j.version>
     <audience-annotations.version>0.12.0</audience-annotations.version>
     <jmockit.version>1.48</jmockit.version>
-    <junit.version>5.6.2</junit.version>
+    <junit.version>5.8.0</junit.version>
     <junit-platform.version>1.6.2</junit-platform.version>
     <log4j.version>1.2.17</log4j.version>
     <mockito.version>3.6.28</mockito.version>
@@ -873,8 +873,8 @@
             <configuration>
               <exportAntProperties>true</exportAntProperties>
               <target>
-                <property environment="env" />
-                <exec executable="hostname" outputproperty="host.name" />
+                <property environment="env"/>
+                <exec executable="hostname" outputproperty="host.name"/>
               </target>
             </configuration>
           </execution>
